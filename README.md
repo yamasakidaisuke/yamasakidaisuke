@@ -1,31 +1,34 @@
 <!--
   GitHub Profile README — yamasakidaisuke
-  この .md を、新規リポジトリ `yamasakidaisuke/yamasakidaisuke` の README.md として置くと
+  この .md を `yamasakidaisuke/yamasakidaisuke` の README.md として置くと
   github.com/yamasakidaisuke のプロフィール直下に常時表示されます。
   配色: bg=#0d1117 / text=#7d8590 / title=#e6edf3 / accent=#58a6ff（GitHubダーク準拠）
-  外部依存を最小化（shields.io / streak-stats / komarev のみ）。落ちても本文が成立する設計。
+  会社名は記載しない。外部依存は shields.io / streak-stats / komarev のみ（落ちても本文が成立）。
 -->
 
 <div align="center">
 
 ### `山崎 大祐` — Daisuke Yamasaki
 
-**動物病院チェーンの内製エンジニア**
-<sub>Front-end craft → Full-stack × AI · 現場の「困った」を、一人で動くプロダクトに。</sub>
+**"困った" を自作ツールで解く内製エンジニア**
+<sub>暮らしも、現場も。Front-end craft → Full-stack × AI</sub>
 
 <br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=yamasakidaisuke&style=flat-square&color=58a6ff&label=PROFILE+VIEWS)](https://github.com/yamasakidaisuke)
 [![Website](https://img.shields.io/badge/yamasakidaisuke.com-0d1117?style=flat-square&logo=safari&logoColor=58a6ff)](https://yamasakidaisuke.com)
-[![VetPartners](https://img.shields.io/badge/VetPartners-0d1117?style=flat-square&logoColor=7d8590)](https://github.com/yamasakidaisuke)
+[![Domain](https://img.shields.io/badge/Pet_Healthcare-0d1117?style=flat-square&logoColor=7d8590)](#)
+[![Stack](https://img.shields.io/badge/Full--stack_×_AI-0d1117?style=flat-square&logoColor=7d8590)](#)
 
 </div>
 
 <br/>
 
-> 21病院規模の動物病院チェーンで、**獣医・看護・管理部門が毎日使う社内ツールを内製**しています。
-> 2019年のCSSアニメーションに始まり、WordPress運用 → React/TypeScriptフルスタック → AIの実務組み込みへ。
-> **「作って終わり」ではなく「現場が回る」ところまで** を、設計・実装・運用まで一人で担います。
+> 動物病院グループの社内で、獣医・看護・管理の現場が毎日使うツールを内製しています。
+> おもしろいのは、**仕事も暮らしも同じやり方**だということ —
+> サウナや筋トレや「心の記録」みたいな自分の "困った" も、現場の "困った" も、ぜんぶ自作ツールで解いてきました。
+> 2019年のCSSアニメから、WordPress運用 → React/TS フルスタック → AIの実務組み込みへ。
+> **「作って終わり」ではなく「現場が回る」ところまで** を一人で。
 
 <br/>
 
@@ -111,20 +114,62 @@ PLpgSQL     ▏░░░░░░░░░░░░░░░░░░░░░  
 
 <br/>
 
-<!-- ── SELECTED WORKS（テーブル＝サービス非依存で常時表示）── -->
+<!-- ── SUPPLY × DEMAND（需要と供給のマッピング）──────────── -->
+
+## ▍ Supply × Demand — 世が求めるもの / 私が出せるもの
+
+| 🎯 世の需要（2026のトレンド） | 🧰 私の供給（実体のあるスキル） |
+|:--|:--|
+| **AIを"使える形"にして現場に置く** | プロンプト設計＋Claude Code で実務に組込み — `ai-prompt-playbook` |
+| **ドメイン特化のフルスタック内製** | ヘルスケア現場の課題を React / TS / Supabase で単独実装 |
+| **BaaSで小さく速く立ち上げる** | Supabase + SWR の認証付きDBアプリをゼロから構築 — `Anger-Log` |
+| **学びを続けさせるゲーミフィケーション** | 教育ゲーム基盤を設計 — `vp-vetgame-sprint` |
+| **習慣化・記録の仕組みづくり** | 自分の心身トラッカーを自作して日々運用 |
+
+<sub>トレンドを追うためではなく、**目の前の "困った" を解いていたら、結果として需要の真ん中にいた** — そういう作り方をしています。</sub>
+
+<br/>
+
+<!-- ── SELECTED WORKS ─────────────────────────────────── -->
 
 ## ▍ Selected Works
 
 | Project | 何をするもの | Stack |
 |:--|:--|:--|
 | **[ai-prompt-playbook](https://github.com/yamasakidaisuke/ai-prompt-playbook)** | AI指示ワード200個を効果順に高速ブラウズ／コピーするSPA | ![React](https://img.shields.io/badge/-React-0d1117?style=flat-square&logo=react&logoColor=61DAFB) ![TS](https://img.shields.io/badge/-TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6) ![Vite](https://img.shields.io/badge/-Vite-0d1117?style=flat-square&logo=vite&logoColor=646CFF) |
-| **[Anger-Log](https://github.com/yamasakidaisuke/Anger-Log)** | 身体・感情・知性を記録するセルフケアアプリ | ![React](https://img.shields.io/badge/-React_19-0d1117?style=flat-square&logo=react&logoColor=61DAFB) ![Supabase](https://img.shields.io/badge/-Supabase-0d1117?style=flat-square&logo=supabase&logoColor=3FCF8E) ![SWR](https://img.shields.io/badge/-SWR-0d1117?style=flat-square&logo=vercel&logoColor=ffffff) |
+| **[Anger-Log](https://github.com/yamasakidaisuke/Anger-Log)** | 身体・感情・知性を記録するセルフケアアプリ（自分用に作った） | ![React](https://img.shields.io/badge/-React_19-0d1117?style=flat-square&logo=react&logoColor=61DAFB) ![Supabase](https://img.shields.io/badge/-Supabase-0d1117?style=flat-square&logo=supabase&logoColor=3FCF8E) ![SWR](https://img.shields.io/badge/-SWR-0d1117?style=flat-square&logo=vercel&logoColor=ffffff) |
 | **[vp-vetgame-sprint](https://github.com/yamasakidaisuke/vp-vetgame-sprint)** | 獣医学生向け教育ゲーム基盤・スマホファースト／60FPS | ![React](https://img.shields.io/badge/-React-0d1117?style=flat-square&logo=react&logoColor=61DAFB) ![TS](https://img.shields.io/badge/-TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6) |
 | **[user-read-management](https://github.com/yamasakidaisuke/user-read-management)** | 動物病院向けWP：職種別ロール＋bbPress権限＋CSV出力 | ![WordPress](https://img.shields.io/badge/-WordPress-0d1117?style=flat-square&logo=wordpress&logoColor=ffffff) ![PHP](https://img.shields.io/badge/-PHP-0d1117?style=flat-square&logo=php&logoColor=777BB4) |
 
 <br/>
 
-<!-- ── ACTIVITY（稼働しているサービスのみ）──────────────── -->
+<!-- ── CURRENTLY INTO（技術的な趣味趣向）────────────────── -->
+
+## ▍ Currently Into — いま追っているもの
+
+- 🤖 **自律AIエージェント** — Ralph 的な「完了するまで回る」実行ループ、そして *vibe coding*
+- 🍌 **生成AIの画像** — Nano Banana / Gemini でUI素材やビジュアルを作る
+- 🗂 **PKM × AI** — Obsidian ＋ AI校正で「考えを貯めて磨く」ノート術
+- 🎭 **アバター表現** — PNGTuber／リアルタイム口パクなどの軽量な配信表現
+- 🌏 **シビックテック** — Code for Japan 的な「地域の課題を技術で」への共感
+
+<br/>
+
+<!-- ── OFF THE CLOCK（趣味）──────────────────────────── -->
+
+## ▍ Off the Clock — オフの時間
+
+<div align="center">
+
+🧖 **サウナでととのう** ・ 🏋️ **宅トレ**（プランク／懸垂／ケトルベル） ・ 🎤 **歌・カラオケ** ・ 🍶 **晩酌**
+
+<sub>体・感情・思考の調子を毎日つけて、自分を観察する。 — そのログ習慣が、そのまま `Anger-Log` というアプリになりました。<br/>**自分の暮らしが、いちばん近くにある "ユーザー" です。**</sub>
+
+</div>
+
+<br/>
+
+<!-- ── ACTIVITY ───────────────────────────────────────── -->
 
 ## ▍ GitHub Activity
 
@@ -133,16 +178,6 @@ PLpgSQL     ▏░░░░░░░░░░░░░░░░░░░░░  
 <img src="https://streak-stats.demolab.com?user=yamasakidaisuke&hide_border=true&background=0d1117&stroke=21262d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=7d8590&dates=7d8590&currStreakNum=e6edf3&sideNums=e6edf3" />
 
 </div>
-
-<br/>
-
-<!-- ── NOW ────────────────────────────────────────────── -->
-
-## ▍ Now
-
-- 🏥 **VetPartners** で、現場が毎日触る社内ツールを内製・改善中
-- 🤖 **AIを実務に組み込む** — プロンプト設計・AI支援開発・運用の自動化
-- 🌱 興味: フルスタックの設計力 × ドメイン特化（動物病院）の掛け算
 
 <br/>
 
