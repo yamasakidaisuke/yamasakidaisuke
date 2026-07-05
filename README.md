@@ -46,7 +46,7 @@
 
 **Backend / Data**
 `Supabase` `PostgreSQL / PLpgSQL` `SWR`
-`AJAX` `REST`
+`AJAX` `REST` `Stripe` `Prisma`
 
 </td>
 <td valign="top" width="50%">
@@ -58,6 +58,7 @@
 **Dev / AI**
 `GitHub Actions` `GitHub Pages` `Git`
 `Prompt Engineering` `AI-assisted Dev` `Claude Code`
+`Multi-Agent Systems`
 
 </td>
 </tr>
@@ -108,9 +109,10 @@ PLpgSQL     ▏░░░░░░░░░░░░░░░░░░░░░  
 | **2019** | フロント・CSS基礎 | `@keyframes` アニメ／Flexレスポンシブ／SPメニュー／追従UI | `CSS3-keyframes-animation` |
 | **2021–24** | WordPress 内製・運用 | 独自テーマ(Snow Monkey/unitone)／プラグイン開発／GitHub Actions | `my-snow-monkey-custom` |
 | **2025** | React / TS・AI へ | React+TS+Viteで実務SPA／プロンプト設計／教育のゲーム化 | `ai-prompt-playbook` |
-| **2026** | フルスタック+Supabase | 認証付きDBアプリ／カスタムロール＆権限設計／AJAX＋CSV運用 | `Anger-Log` · `user-read-management` |
+| **2026上半期** | フルスタック+Supabase | 認証付きDBアプリ／カスタムロール＆権限設計／AJAX＋CSV運用 | `Anger-Log` · `user-read-management` |
+| **2026下半期** | AIエージェント設計 × SaaS化 | 議論して答えを紡ぐマルチエージェント設計／Stripe+Prismaで決済・会員基盤をSaaS化／ローカルLLM×画像生成パイプライン構築 | *(非公開プロジェクト)* |
 
-<sub>**CSSアニメ職人 → WordPress内製 → React/TSフルスタック × AI** — 現場の課題を起点に、必要な技術を必要なだけ取りに行った軌跡。</sub>
+<sub>**CSSアニメ職人 → WordPress内製 → React/TSフルスタック × AI → マルチエージェント/SaaS基盤設計** — 現場の課題を起点に、必要な技術を必要なだけ取りに行った軌跡。「また変わったか」と自分でも思うが、それが実体。</sub>
 
 <br/>
 
@@ -159,6 +161,8 @@ PRIVATE / 社内リポジトリ（名前は伏せています）
 ████████       AIワークフローの仕組み化              Claude Code Skills · MCP · 自動化
 ██████████     複数拠点の Web 運用・ローカルSEO       WordPress · GA4 · Search Console
 ███████        社内向けの定型業務ツール群             権限設計 · CSV運用 · 帳票
+██████         決済・会員基盤のSaaS化                Stripe · Prisma · Next.js
+██████         店舗DXの横展開                       POS連携 · SNS自動運用 · 生成AI
 ```
 
 <sub>公開20リポジトリは氷山の一角。**水面下のほうが、ずっと大きい。**</sub>
@@ -169,8 +173,9 @@ PRIVATE / 社内リポジトリ（名前は伏せています）
 
 ## ▍ Currently Into — いま追っているもの
 
-- 🤖 **自律AIエージェント** — Ralph 的な「完了するまで回る」実行ループ、そして *vibe coding*
-- 🍌 **生成AIの画像** — Nano Banana / Gemini でUI素材やビジュアルを作る
+- 🤖 **マルチエージェントAI設計** — 複数人格が議論して答えを紡ぐ対話型AI、業務チャットへのAI橋渡し（LINE WORKS Bot）、Ralph的な「完了するまで回る」実行ループ
+- 🍌 **生成AIの画像** — Nano Banana / Gemini でUI素材を作りつつ、Ollama×Stable Diffusion×ComfyUIのローカル生成パイプラインも自作
+- 🃏 **自分の実績を可視化する** — 40超のリポジトリをトレカ化して振り返る仕組みを自作（静的ギャラリー＋A4 PDF）
 - 🗂 **PKM × AI** — Obsidian ＋ AI校正で「考えを貯めて磨く」ノート術
 - 🎭 **アバター表現** — PNGTuber／リアルタイム口パクなどの軽量な配信表現
 - 🌏 **シビックテック** — Code for Japan 的な「地域の課題を技術で」への共感
